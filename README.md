@@ -23,7 +23,7 @@ Data Source → Python Cleaning → SQL Database → Feature Engineering
 
 # Data Cleaning (Python)
 
--Performed extensive preprocessing:
+- Performed extensive preprocessing:
   -  Removed null & inconsistent values
   -  Converted all dates to standard format
   -  Fixed negative and impossible values
