@@ -29,15 +29,45 @@ Data Source → Python Cleaning → SQL Database → Feature Engineering
   -  Fixed negative and impossible values
   -  Standardized categorical fields
   -  Created structured feature-ready datasets
- 
-   ## SQL Database Design
+
+  # SQL Database Design
 
  - Created a relational schema with 3 core tables:
  - customers – demographic & financial profile
  - loans – loan attributes and status
  - payments – repayment behavior & DPD trends-
-### Relationships:
-  -  One customer → Many loans
-  -  One loan → Many payments
-
+    ### Relationships:
+      -  One customer → Many loans
+      -  One loan → Many payments
   
+  
+# Feature Engineering
+-    Added industry-used features:
+-    Age (based on DOB)
+-    Income Band
+-    EMI-to-Income Ratio
+-    High-Risk Customer Flag
+-    DPD Band (0, 1–30, 31–60, 61–90, 90+)
+-    These features are used by banks for credit risk modeling.
+
+
+
+
+# Power BI Dashboard
+
+-  Fully interactive report with:
+-  KPIs (Total Loan Amount, Avg Interest Rate, EMI, Active Customers)
+-  Monthly loan trends
+-  Product segmentation
+-  Branch-wise contribution
+-  Channel performance
+-  Default vs Non-default comparison
+-  DPD & risk distribution
+
+ 
+ ## Key Insights Extracted
+-  Education loans dominate the portfolio
+-  EMI-to-income ratio helps identify default-prone borrowers
+-  Certain branches have significantly better performance
+-  DPD > 30 strongly correlates with default probability
+-  Online channels produce high volume but higher risk
