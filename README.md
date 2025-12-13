@@ -12,3 +12,22 @@ A complete real-world banking analytics project built to simulate how financial 
 
 Data Source → Python Cleaning → SQL Database → Feature Engineering 
 → Analytical Queries → Power BI Dashboard → Insights & Reporting
+
+
+## Tech Stack
+-  Python (Pandas, NumPy)
+-  MySQL
+-  Power BI
+-  Excel
+-  Jupyter Notebook
+
+# Data Cleaning (Python)
+
+-Performed extensive preprocessing:
+  -  Removed null & inconsistent values
+  -  Converted all dates to standard format
+  -  Fixed negative and impossible values
+  -  Standardized categorical fields
+  -  Created structured feature-ready datasets
+
+  
