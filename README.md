@@ -29,5 +29,15 @@ Data Source → Python Cleaning → SQL Database → Feature Engineering
   -  Fixed negative and impossible values
   -  Standardized categorical fields
   -  Created structured feature-ready datasets
+ 
+   ## SQL Database Design
+
+ - Created a relational schema with 3 core tables:
+ - customers – demographic & financial profile
+ - loans – loan attributes and status
+ - payments – repayment behavior & DPD trends-
+### Relationships:
+  -  One customer → Many loans
+  -  One loan → Many payments
 
   
