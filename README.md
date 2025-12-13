@@ -8,3 +8,7 @@ A complete real-world banking analytics project built to simulate how financial 
 - Built interactive dashboards used for business decision-making
 - Simulated real banking KPIs: loan disbursement, risk, defaults, branch performance
   
+# Project Architecture
+
+Data Source → Python Cleaning → SQL Database → Feature Engineering 
+→ Analytical Queries → Power BI Dashboard → Insights & Reporting
