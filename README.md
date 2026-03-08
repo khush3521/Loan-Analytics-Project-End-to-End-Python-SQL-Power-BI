@@ -77,6 +77,12 @@ Business Insights & Recommendations
 | **Online channels = high volume + higher risk** | Apply stricter credit checks to digital loan applications |
 
 ---
+Page 1 :
+<img width="1274" height="723" alt="Screenshot 2025-12-13 140726" src="https://github.com/user-attachments/assets/d9526271-f995-4c5e-8034-108c93b12fe5" />
+Page 2 :
+<img width="1281" height="720" alt="Screenshot 2025-12-13 140735" src="https://github.com/user-attachments/assets/ab50fea7-2abe-4c8b-82c8-4d75fce45d52" />
+Page 3:
+<img width="1278" height="715" alt="Screenshot 2025-12-13 140745" src="https://github.com/user-attachments/assets/2ef32609-ce7b-4653-b32f-32bdc5533bb8" />
 
 ## 🗄️ SQL Database Design
 
